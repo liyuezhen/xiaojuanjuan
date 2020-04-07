@@ -1,0 +1,220 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+body {
+  background: #ffffff;
+}
+.background {
+  background-repeat: no-repeat;
+  -webkit-background-size: 100% 100%;
+          background-size: 100% 100%;
+  position: relative;
+  -webkit-overflow-scrolling: touch;
+  margin-top: -0.266667vw;
+}
+.header {
+  color: #c2c2c2;
+  font-size: 3.733333vw;
+  border-bottom: 1px solid #dddddd;
+  padding: 0 2.133333vw 2.666667vw 2.133333vw;
+}
+.header .bar {
+  height: 10.133333vw;
+  line-height: 10.133333vw;
+}
+.header .head {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.header .head img.icon {
+  width: 8vw;
+  height: 8vw;
+  -webkit-border-radius: 13.333333vw;
+          border-radius: 13.333333vw;
+}
+.header .head .textBox {
+  -webkit-box-flex: 1;
+  -webkit-flex: auto;
+      -ms-flex: auto;
+          flex: auto;
+  margin-left: 1.333333vw;
+  font-size: 2.133333vw;
+}
+.header .head .textBox .text:nth-child(2) {
+  text-align: right;
+}
+.header .head .textBox span {
+  color: #b5e7ee;
+  border: 1px solid #b5e7ee;
+  -webkit-border-radius: 0.533333vw;
+          border-radius: 0.533333vw;
+  display: inline-block;
+  padding: 0.266667vw;
+  font-size: 1.2vw;
+  -webkit-transform: scale(0.8);
+  -ms-transform: scale(0.8);
+  transform: scale(0.8);
+}
+main {
+  padding: 2.133333vw 4.266667vw;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+main .title {
+  font-size: 4vw;
+  color: #030303;
+  font-weight: bold;
+}
+main .title span {
+  width: 4.533333vw;
+  display: inline-block;
+  height: 4.533333vw;
+  line-height: 4.533333vw;
+  background: #59bf8d;
+  font-size: 3.2vw;
+  color: #fcffff;
+  text-align: center;
+  -webkit-border-radius: 0.533333vw;
+          border-radius: 0.533333vw;
+  -webkit-flex-shrink: 0;
+      -ms-flex-negative: 0;
+          flex-shrink: 0;
+  -webkit-align-self: baseline;
+      -ms-flex-item-align: baseline;
+          align-self: baseline;
+}
+main .title a {
+  text-decoration: none;
+  color: red;
+}
+main p {
+  width: 100%;
+  padding: 2.133333vw 0;
+  text-indent: 1rem;
+  color: #262626;
+  font-size: 3.733333vw;
+}
+main .tu {
+  width: 70.8vw;
+}
+.answer {
+  padding: 2.133333vw 0;
+  border-top: 1px solid #dddddd;
+}
+.answer .title {
+  font-size: 2.933333vw;
+  color: #c2c2c2;
+  padding: 0 2.133333vw;
+}
+.answer .items {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 2.133333vw 0;
+  margin: 0 2.133333vw;
+  border-bottom: 1px solid #f1eded;
+}
+.answer .items .icon {
+  width: 4.666667vw;
+  height: 4.666667vw;
+  -webkit-border-radius: 13.333333vw;
+          border-radius: 13.333333vw;
+  -webkit-flex-shrink: 0;
+      -ms-flex-negative: 0;
+          flex-shrink: 0;
+}
+.answer .items .info {
+  -webkit-box-flex: 1;
+  -webkit-flex: auto;
+      -ms-flex: auto;
+          flex: auto;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.answer .items .info .landlord {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 0 2.133333vw;
+  font-size: 1.866667vw;
+}
+.answer .items .info .landlord .land {
+  color: #cccccc;
+}
+.answer .items .info .content {
+  padding-top: 2.133333vw;
+  font-size: 3.733333vw;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.answer .items .info .content .reply {
+  background: #f6f6f6;
+  padding: 2.133333vw;
+  -webkit-border-radius: 1.066667vw;
+          border-radius: 1.066667vw;
+}
+.answer .items .info .content .reply .first span {
+  color: #b5e7ee;
+  border: 1px solid #b5e7ee;
+  -webkit-border-radius: 0.533333vw;
+          border-radius: 0.533333vw;
+  display: inline-block;
+  padding: 0.266667vw;
+  font-size: 1.2vw;
+  -webkit-transform: scale(0.8) translateY(-25%);
+  -ms-transform: scale(0.8) translateY(-25%);
+  transform: scale(0.8) translateY(-25%);
+  -webkit-flex-shrink: 0;
+      -ms-flex-negative: 0;
+          flex-shrink: 0;
+}
+.answer .items .info .content .reply .last {
+  text-indent: 1rem;
+}
+
+/*# sourceMappingURL=eczema.4df8d16db1d53733e68c.css.map*/

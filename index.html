@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>宝宝湿疹</title>
+    <meta name="viewport" content="width=device-width,initial-scale=2.0 ,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no"/>
+<link href="./css/eczema.4df8d16db1d53733e68c.css" rel="stylesheet"></head>
+<body>
+  <div id="app" v-cloak>
+    <div class="header">
+      <div class="bar">宝宝帮>育儿交流>婴儿湿疹</div>
+      <div class="head">
+        <img src="images/7263b11d.1.jpg" alt="" class="icon">
+        <div class="textBox">
+          <div class="text">乐乐妈妈... <span>楼主</span></div>
+          <div class="text">2019.12.6</div>
+        </div>
+      </div>
+    </div>
+    <main>
+      <div class="title">
+        <span>新</span>分享宝宝<a>湿疹</a>经历和治愈过程。原来用对了方法湿疹竟那么容易好…
+      </div>
+      <p>
+        我是刚生下二胎的妈妈，大宝5岁了皮肤又白又嫩，逢人就夸！没想到妹妹出生一个星期就开始长湿疹还一发不可收拾，最严重的时候全身上下，特别脸上整个都是脱皮发红的状态。
+      </p>
+      <!--<img src="./img/a1.jpg" class="tu" alt="">-->
+      <p>那段时间真是崩溃，看着孩子也难受我也睡不好，去医院看给开了一些药回来用了几天没有一点用。就开始在网上朋友圈各种寻求方法，买了各种药膏，湿疹膏，有些还是有点用的只是当时下去了后面又跑出来。我听宝妈群里的宝妈说一直保湿长大就好了，因为没办法我也就这么做了一个月每天给宝宝涂三次保湿霜还是反反复复。我是混合喂养不知道是奶粉的原因还是母乳的原因绞尽脑汁都想不通。穿的也不多因为自己带所以不存在那些老思想传统带娃方式。</p>
+      <p>
+        直到几个月后大姨来家里玩，她说我表哥的女儿也就是大姨的孙女以前也是这种情况，是买了中草药包泡澡用好的。于是把微信（pzt6665）介绍给我去买了回来。当时加了微信（pzt6665）一看是个老奶奶的头像还挺淳朴的，了解过之后才知道是她孙女在经营微信（pzt6665）他们是用的纯植物的药材自己家采摘的独家配方。我毫不犹豫就买了回来我还答应了她用好一定会帮她宣传宣传😄
+      </p>
+      <!--<img src="./img/a3.png" class="tu" alt="">-->
+      <p>买回来洗的第一天就惊讶了，可以清楚的看到没那么红了，宝宝哭的时候脸也不像以前红 用了一个星期身上湿疹都好了脸上也几乎好了，只剩下下巴脖子还有几颗</p>
+      <!--<img src="./img/a6.jpg" class="tu" alt="">-->
+      <p>一个疗程十天，宝宝下巴和脖子也都好了。身上已经完全干净了。我怕说的不直观放个视频你们对比看看😝</p>
+      <!--<img src="./img/a3.png" class="tu" alt="">-->
+      <p>现在过去几个月了没有复发，特地分享出来给其他有同样问题的宝妈，也算是之前答应给她做的宣传了，你们需要的可以直接去找她（pzt6665）就说是乐乐妈介绍的就可以了，不过要有点耐心哦，因为泡澡的药包是根据情况配的所以他们会比较忙</p>
+    </main>
+    <div class="answer">
+      <div class="title">热门评论（共7条评论）</div>
+      <div class="items" v-for="(k,i) in arr" :key="i">
+        <img :src="k.headImage" class="icon" alt="">
+        <div class="info">
+          <div class="landlord">
+            <div class="name">{{k.name}}</div>
+            <div class="land">楼{{i+1}}</div>
+          </div>
+          <div class="content">
+            <div class="wo">{{k.problem}}</div>
+            <div class="reply" v-if="k.content">
+              <div class="list" v-for="(key , _index) in k.content">
+                <div class="first">{{key.isReply?'回复':k.name}}：{{key.msg}}</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+<script type="text/javascript" src="./js/eczema.4df8d16db1d53733e68c.js"></script></body>
+</html>
